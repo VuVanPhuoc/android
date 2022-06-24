@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManHinhDangKy">
+
+    <TextView
+android:layout_marginBottom="40dp"
+        android:textColor="#AA7B04"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:text="Đăng Ký"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:id="@+id/dktaikhoan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:drawableLeft="@drawable/ic_taikhoan"
+        android:hint="Tài Khoản"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_matkhau"
+        android:id="@+id/dkmatkhau"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Mật Khẩu"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_email"
+        android:id="@+id/dkemail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+
+    <Button
+        android:id="@+id/dkdangky"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="69dp"
+        android:backgroundTint="#AA7B04"
+        android:text="Đăng Ký"></Button>
+
+    <Button
+        android:id="@+id/dkdangnhap"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        android:backgroundTint="#AA7B04"
+        android:text="Quay lại"></Button>
+
+
+</LinearLayout>

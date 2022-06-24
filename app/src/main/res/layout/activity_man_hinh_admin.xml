@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManHinhAdmin">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:backgroundTint="#AA7B04"
+        android:layout_marginLeft="40dp"
+    android:id="@+id/buttonThemtruyen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Thêm truyện"></Button>
+
+    <Button
+    android:backgroundTint="#AA7B04"
+        android:id="@+id/buttonThoat"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        android:text="Thoát"></Button>
+</LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listviewAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

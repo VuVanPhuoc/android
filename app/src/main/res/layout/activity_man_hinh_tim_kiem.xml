@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManHinhTimKiem">
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/timkiem"
+        android:textColorHint="#040404"
+        android:hint="Tìm tên truyện"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <ListView
+
+        android:id="@+id/listviewTimKiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

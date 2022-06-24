@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManHinhDangNhap">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:drawableBottom="@drawable/ic_baseline_menu_book_24"
+        android:text="Đăng Nhập"
+        android:textColor="#AA7B04"
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/taikhoan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:drawableLeft="@drawable/ic_taikhoan"
+        android:hint="Tài Khoản"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/matkhau"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_matkhau"
+        android:hint="Mật Khẩu"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"></EditText>
+
+    <Button
+        android:backgroundTint="#AA7B04"
+        android:id="@+id/dangnhap"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTintMode="add"
+        android:rotationX="-12"
+        android:text="Đăng Nhập"
+        ></Button>
+
+    <Button
+        android:backgroundTint="#AA7B04"
+        android:id="@+id/dangky"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Đăng Ký"></Button>
+</LinearLayout>
